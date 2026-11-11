@@ -1,0 +1,20 @@
+/* Custom CSS Extensions */
+.filter-btn {
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .filter-btn.active {
+    background-color: #06b6d4; /* Tailwind cyan-500 */
+    color: #0f172a; /* Tailwind slate-900 */
+    border-color: #06b6d4;
+    font-weight: 600;
+  }
+  
+  /* Smooth transition when toggling cards */
+  .project-card {
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+  
+  .project-card.hidden {
+    display: none;
+  }

@@ -1,0 +1,44 @@
+<section id="projects" class="py-20 px-4 bg-slate-800/40 border-y border-slate-800">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-2xl sm:text-3xl font-bold mb-8 text-slate-100 flex items-center gap-3">
+        <i class="fa-solid fa-folder-open text-cyan-400 text-xl"></i> Featured Projects
+      </h2>
+  
+      <div class="flex gap-2 mb-8 flex-wrap">
+        <button class="filter-btn active px-4 py-2 text-sm rounded-lg bg-cyan-500 text-slate-900 font-semibold" data-filter="all">All</button>
+        <button class="filter-btn px-4 py-2 text-sm rounded-lg bg-slate-800 border border-slate-700 text-slate-300" data-filter="ai">AI / Deep Learning</button>
+      </div>
+  
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+        <!-- ClearSight Project Card -->
+        <article class="project-card bg-slate-800 rounded-xl border border-slate-700 overflow-hidden" data-category="ai">
+          <div class="h-48 bg-slate-700 flex items-center justify-center relative">
+            <i class="fa-solid fa-brain text-5xl text-cyan-400"></i>
+            <span class="absolute top-3 right-3 bg-cyan-950 text-cyan-400 border border-cyan-700 text-xs px-3 py-1 rounded-full font-bold">99.69% Accuracy</span>
+          </div>
+          <div class="p-6">
+            <h3 class="text-xl font-bold text-slate-100">ClearSight</h3>
+            <p class="text-slate-400 text-sm mt-2">
+              A Convolutional Neural Network (CNN) built with <strong>PyTorch</strong> for brain tumor classification across 4 classes: <em>Glioma, Meningioma, Pituitary, and No Tumor</em>. Deployed as an interactive web app using <strong>Streamlit</strong>.
+            </p>
+            <div class="mt-4 flex flex-wrap gap-2 text-xs font-mono text-cyan-300">
+              <span class="bg-slate-900 px-2 py-1 rounded">PyTorch</span>
+              <span class="bg-slate-900 px-2 py-1 rounded">CNN</span>
+              <span class="bg-slate-900 px-2 py-1 rounded">Streamlit</span>
+              <span class="bg-slate-900 px-2 py-1 rounded">Computer Vision</span>
+            </div>
+  
+            <!-- Project Links -->
+            <div class="mt-6 flex gap-4 text-sm font-semibold">
+              <a href="https://clearsightdx.streamlit.app/" target="_blank" rel="noopener noreferrer" class="text-cyan-400 hover:underline flex items-center gap-1">
+                Live Demo <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+              </a>
+              <a href="https://github.com/pradeep-shettigar" target="_blank" rel="noopener noreferrer" class="text-slate-400 hover:text-white flex items-center gap-1">
+                GitHub <i class="fa-brands fa-github text-xs"></i>
+              </a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
